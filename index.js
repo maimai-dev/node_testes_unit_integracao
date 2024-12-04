@@ -1,3 +1,8 @@
 const somaHorasExtras = (salario, valorHorasExtra) => salario + valorHorasExtra;
 
-console.log(somaHorasExtras(2000, 500));
+const calculaDescontos = (salario, descontos) => salario - descontos;
+
+export {
+    somaHorasExtras,
+    calculaDescontos,
+};
